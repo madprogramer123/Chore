@@ -3,12 +3,14 @@ body {
 	font: "Palatino Linotype";
 }
 div {
-    border: 5px white;
-    border-style: groove;
-    border-radius: 10px;
 }
 
 #logindivone {
+    border: 2px black;
+    border-style: groove;
+    border-radius: 10px;
 
-	background-color:blue;
+	background-color:rgba(87,77,75,.1);
+	width:350px;
+	height: 600px;
 }
