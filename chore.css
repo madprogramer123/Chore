@@ -3,6 +3,7 @@ body {
 	font: "Palatino Linotype";
 }
 div {
-    border-color: #D9DFEF;
+    border: 5px white;
     border-style: groove;
+    border-radius: 10px;
 }
