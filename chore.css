@@ -1,6 +1,7 @@
 body {
 	background-color: #090AA7
 	font: "Palatino Linotype";
+	font-size: 20px;
 }
 div {
     border: 5px white;
