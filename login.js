@@ -4,3 +4,8 @@ var app = firebase.intializeApp({
 });
 
 var auth = app.auth();
+
+
+function signup(){
+	console.log("hello");
+}
