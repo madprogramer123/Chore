@@ -3,7 +3,9 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" href="chore.css">
-
+	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+	<script src="login.js"></script>
+	<!--firebase code AIzaSyCzNQJMPSluc8bmxmxlISBgWv74u50cLOI -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
@@ -19,7 +21,25 @@
 		</nav>
 
 		<div class="col-md-4 col-md-offset-4" id="logindivone">
-			<h1>Login With Google</h1>
+			<div class="col-md-4">
+				<h1>Login</h1>
+				<input placeholder="Email" type="email" name="Email">
+				<hr>
+				<input placeholder="Password" type="password" name="Password">
+<hr>
+				<button onclick="login()">Login</button>
+			</div>
+
+				<h1>Sign up</h1>	
+
+				<input placeholder="Email" type="email" name="
+				Email">
+				<hr>
+				<input placeholder="Password" type="password" name="password">
+
+<hr>
+				<button onclick="signup()" id="signupbutton">Sign Up</button>
+			</div>
 
 			
 
