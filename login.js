@@ -21,3 +21,8 @@ function signup(){
 	
 }
 
+auth.onAuthStateChanged(function(user) {
+	console.log(user)
+
+});
+
