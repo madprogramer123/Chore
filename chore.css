@@ -1,14 +1,28 @@
 body {
 	font-family: "Palation Linotype";
-	padding: 0px;
-	margin:0px;
-	color:black;
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+.navbar {
+	background-image: linear-gradient(to bottom,#000 0,#222 100%);
+	margin: 0;
+	border-width: 0;
+}
+
+.navbar .container {
+	margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #FFF;
 }
 
 #logindivone {
-    border: 2px black;
-    border-style: groove;
-    border-radius: 10px;
+	border: 2px black;
+	border-style: groove;
+	border-radius: 10px;
 	background-color:rgba(87,77,75,.1);
 	height: 600px;
 }
@@ -23,7 +37,7 @@ body {
 
 .firstimage {
 	min-height:500px;
-	background-image:url("Smiley.jpg");
+	background-image:url("Women.jpg");
 	background-size:100%;
 }
 
@@ -34,26 +48,26 @@ body {
 	display:block;
 }
 
-ul {
-		    list-style-type: none;
-		    margin: 0;
-		    padding: 0;
-		    overflow: hidden;
-		    background-color:black;
-		}
+/*ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:black;
+}
 
-		li {
-		    float: left;
-		}
+li {
+	float: left;
+}
 
-		li a {
-		    display: block;
-		    color: white;
-		    text-align: center;
-		    padding: 14px 16px;
-		    text-decoration: none;
-		}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
 
-		li a:hover {
-		    background-color:white;
-		}
+li a:hover {
+	background-color:white;
+}*/
