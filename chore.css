@@ -2,7 +2,7 @@ body {
 	font-family: "Palation Linotype";
 	padding: 0px;
 	margin:0px;
-	color:white;
+	color:black;
 }
 
 #logindivone {
@@ -14,10 +14,16 @@ body {
 }
 
 .main-image {
-	width: 100%;
+	
 	min-height:500px;
 	background-image:url("broom.jpg");
-	background-position: center center;
+	background-position: 80% 80%; 
+	background-size:100%;
+}
+
+.firstimage {
+	min-height:500px;
+	background-image:url("Smiley.jpg");
 	background-size:100%;
 }
 
