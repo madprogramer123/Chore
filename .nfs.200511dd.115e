@@ -48,7 +48,6 @@ body {
 	display:block;
 }
 
-<<<<<<< HEAD
 /*ul {
 	list-style-type: none;
 	margin: 0;
@@ -72,55 +71,3 @@ li a {
 li a:hover {
 	background-color:white;
 }*/
-=======
-ul {
-		    list-style-type: none;
-		    margin: 0;
-		    padding: 0;
-		    overflow: hidden;
-		    background-color:black;
-		}
-
-		li {
-		    float: left;
-		}
-
-		li a {
-		    display: block;
-		    color: white;
-		    text-align: center;
-		    padding: 14px 16px;
-		    text-decoration: none;
-		}
-
-		li a:hover {
-		    background-color:rgb(62, 131, 243); 
-		}
-
-		#child-account{
-			width:200px;
-			height:200px;
-			background-color: black;
-			color: white;
-			border-radius:50%;
-			text-align: center;
-
-		}
-
-		#parent-account{
-			width:200px;
-			height:200px;
-			background-color: black;
-			color: white;
-			border-radius:50%;
-			text-align: center;
-
-		}
-
-		#pad {
-			height:200px;
-		}
-
-		    background-color:white;
-		}
->>>>>>> b1bc33acb61ee427676654111233f7a56b8822dc
