@@ -2,6 +2,7 @@ body {
 	font-family: "Palation Linotype";
 	padding: 0px;
 	margin:0px;
+	color:black;
 }
 
 #logindivone {
@@ -13,10 +14,17 @@ body {
 }
 
 .main-image {
-	width: 100%;
+	
 	min-height:500px;
-	background-color:red;
+	background-image:url("broom.jpg");
+	background-position: 80% 80%; 
+	background-size:100%;
+}
 
+.firstimage {
+	min-height:500px;
+	background-image:url("Smiley.jpg");
+	background-size:100%;
 }
 
 .main-words{
@@ -31,7 +39,7 @@ ul {
 		    margin: 0;
 		    padding: 0;
 		    overflow: hidden;
-		    background-color:rgb(22, 107, 245); 
+		    background-color:black;
 		}
 
 		li {
@@ -74,11 +82,5 @@ ul {
 			height:200px;
 		}
 
-
-
-
-
-
-
-
-
+		    background-color:white;
+		}
