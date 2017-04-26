@@ -7,6 +7,7 @@ var auth = app.auth();
 
 function signout(){
 auth.signOut();
+window.location = './login.html'
 }
 
 auth.onAuthStateChanged(function(user) {
