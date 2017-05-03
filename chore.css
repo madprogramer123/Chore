@@ -9,6 +9,7 @@ body {
 	background-image: linear-gradient(to bottom,#000 0,#222 100%);
 	margin: 0;
 	border-width: 0;
+	}
 }
 
 .navbar .container {
