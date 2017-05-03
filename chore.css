@@ -24,7 +24,8 @@ body {
 	border-style: groove;
 	border-radius: 10px;
 	background-color:rgba(87, 77,75,.1);
-	height: 600px;
+	height: 500px;
+	padding-top: 20px;
 }
 
 .main-image {
