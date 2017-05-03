@@ -36,10 +36,10 @@ body {
 }
 
 .firstimage {
-	min-height:500px;
-	background-image:url("Women.jpg");
+   	min-height:500px;
+	background-image:url("mop2.png");
 	background-size:100%;
-}
+} 
 
 .main-words{
 	text-align: center;
