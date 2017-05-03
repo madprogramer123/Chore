@@ -48,6 +48,14 @@ body {
 	display:block;
 }
 
+.padd2 {
+	padding-left: 20px;
+}
+
+.padd {
+	padding-right: 20px;
+}
+
 <<<<<<< HEAD
 /*ul {
 	list-style-type: none;
