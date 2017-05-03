@@ -1,10 +1,3 @@
-var app = firebase.initializeApp({
-	apiKey: 'AIzaSyCzNQJMPSluc8bmxmxlISBgWv74u50cLOI',
-	authDomain: 'localhost'
-});
-
-var auth = app.auth();
-
 
 function signup(){
 	console.log("hello");
@@ -14,6 +7,7 @@ function signup(){
 	.then(function(data){
 		console.log(data)
 		alert("Your account has been created")
+		window.location = './choose-account.html';
 	})
 	.catch(function(error) {
 	console.log(error)
