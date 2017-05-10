@@ -127,8 +127,33 @@ ul {
 
 		#pad {
 			height:200px;
-		}
-
 		    background-color:white;
 		}
->>>>>>> b1bc33acb61ee427676654111233f7a56b8822dc
+
+		.navbar2 {
+			background-color: black;
+			color:white;
+			height:50px;
+			padding-left: 1700px;
+
+
+		}
+
+		.font {
+			color:black;
+		}
+		#chorediv {
+			border-color: black;
+			border-right:1px;
+			border-left:1px;
+			border-top:1px;
+			border-bottom:1px;
+			height: 700px
+			background-color:blue
+			;
+		}
+
+#nav74 {
+	background-color: black;
+	color: white;
+}

@@ -24,7 +24,7 @@ function login(){
 	var email=document.getElementById("loginemail")
 		var password=document.getElementById("loginpassword")
 	auth.signInWithEmailAndPassword(email.value, password.value).then(function(){
-		window.location = './chorepage.html';
+		window.location = './Admin-page.html';
 	})
 	.catch(function(error) {
 		console.log(error)
