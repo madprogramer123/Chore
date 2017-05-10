@@ -9,6 +9,7 @@ body {
 	background-image: linear-gradient(to bottom,#000 0,#222 100%);
 	margin: 0;
 	border-width: 0;
+	}
 }
 
 .navbar .container {
@@ -24,7 +25,8 @@ body {
 	border-style: groove;
 	border-radius: 10px;
 	background-color:rgba(87, 77,75,.1);
-	height: 600px;
+	height: 500px;
+	padding-top: 20px;
 }
 
 .main-image {
@@ -36,16 +38,25 @@ body {
 }
 
 .firstimage {
-	min-height:500px;
-	background-image:url("Women.jpg");
+   	min-height:500px;
+	background-image:url("mop2.png");
 	background-size:100%;
-}
+} 
 
 .main-words{
 	text-align: center;
 	padding-top:200px;
 	margin:auto;
 	display:block;
+}
+
+.main-title {
+    font-family: "Palation Linotype";
+	padding: 0;
+	margin: 0;
+    color: white;
+
+
 }
 
 .padd2 {
@@ -139,6 +150,7 @@ ul {
 
 		}
 
+
 		.font {
 			color:black;
 		}
@@ -156,4 +168,6 @@ ul {
 #nav74 {
 	background-color: black;
 	color: white;
+	height:50px;
 }
+
